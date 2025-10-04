@@ -1,7 +1,6 @@
 # Blink-Based Cognitive Load under Noise — Robustness via Extended Rest Baselines
 
-This project evaluates whether **extending the neutral rest baseline** improves the **stability** and **robustness** of blink-based cognitive-load features when moving from **controlled** to **noisy** visual environments. We use existing datasets only, a lightweight pipeline (face/eye localization → EAR signal → adaptive blink segmentation), and simple statistics (blink rate, mean duration, IBI/IBI-CV).
-
+This study tests whether lengthening the neutral-rest baseline enhances the consistency and resilience of blink-based cognitive-load features when transitioning from lab-style to noisy, real-world video conditions. We rely solely on public datasets and a lean pipeline—face/eye detection, EAR extraction, and adaptive blink segmentation—and summarize behavior with basic metrics: blink rate, mean blink duration, IBI, and IBI coefficient of variation.
 ## Repository structure
 
 ```
